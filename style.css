@@ -57,32 +57,32 @@ div#test {
 .cf {*zoom: 1;}
 
 body {
-    flex-direction: column;
-    display: flex;
-}
-
-.grovalNavigation {
-    height: 70px;
-    text-align: center;
-    background-color: #888;
-    color: #fff;
-}
-
-main {
-    display: flex;
     min-height: 100vh;
-    margin-top: 10px;
+    text-align: center;
+    flex-direction: column;
 }
 
-.content {
-    flex: 2;
+.header {
+    height: 70px;
     text-align: center;
     background-color: #eee;
 }
 
-.localNavigation {
-    flex: 1;
+.content{
+    margin: 10px 0 10px 0;
+    display: flex;
+}
+
+.image{
+    width: 25%;
+    height: 200px;
+    background-color: #eee;
     text-align: center;
-    background-color: #888;
-    color: #fff;
+    margin: 10px;
+}
+
+.footer{
+    height: 70px;
+    text-align: center;
+    background-color: #eee;
 }
