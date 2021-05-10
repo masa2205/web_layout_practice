@@ -56,36 +56,31 @@ div#test {
 .cf:after {clear: both;}
 .cf {*zoom: 1;}
 
+
 body {
     display: flex;
-    flex-direction: colum;
+    flex-direction: column;
 }
 
 .header {
     height: 70px;
-    text-align: center;
     background-color: #eee;
-}
-
-.glovalNavigation {
-    height: 70px;
     text-align: center;
-    background-color: #888;
-    color: #fff;
 }
 
 main {
     display: flex;
     min-height: 100vh;
-    margin: 10px 0 10px 0;
+    max-width: 10px 0;
+    right: 0px;
 }
 
-.content-area{
+.contetnt-area {
     display: flex;
-    flex-wrap: wrap;
+    flex: 1;
 }
 
-.content{
+.content {
     flex: 1;
     height: 200px;
     background-color: #eee;
@@ -93,7 +88,7 @@ main {
     margin: 0 10px 0 10px;
 }
 
-.ad{
+.localNavigation{
     text-align: center;
     background-color: #888;
     color: #fff;
